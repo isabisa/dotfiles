@@ -15,8 +15,9 @@ brew 'php'
 brew 'php@7.4'
 brew 'php@8.0'
 brew 'composer'
+brew 'gh'
 brew 'nginx'
-brew 'nvm'
+brew 'nvm'  # what about node?
 brew 'yarn'
 
 # Fonts
