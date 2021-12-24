@@ -3,7 +3,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-tap 'nicoverbruggen/homebrew-cask'
+tap 'nicoverbruggen/homebrew-cask'  # required for php-mon
 
 # Binaries
 brew 'git'
@@ -15,11 +15,8 @@ brew 'php'
 brew 'php@7.4'
 brew 'php@8.0'
 brew 'composer'
-brew 'dnsmasq'
 brew 'nginx'
-brew 'neovim'
 brew 'nvm'
-brew 'tmux'
 brew 'yarn'
 
 # Fonts
@@ -27,20 +24,32 @@ cask 'font-fira-code'
 
 # Apps
 cask '1password'
-cask 'encryptme'
-cask 'fantastical'
+cask 'adobe-creative-cloud'
+cask 'backblaze'
+cask 'browserstacklocal'
+cask 'cyberduck'
 cask 'firefox'
 cask 'flux'
+cask 'gog-galaxy'
 cask 'google-chrome'
+cask 'google-drive'
+cask 'handbrake'
 cask 'imageoptim'
 cask 'iterm2'
+cask 'kaleidoscope'
 cask 'local'
 cask 'php-mon'
-cask 'postman'
+cask 'screaming-frog-seo-spider'
+cask 'sequel-pro'
 cask 'sim-daltonism'
-cask 'table-plus'
-cask 'transmit'
+cask 'sip'
+cask 'slack'
+cask 'sourcetree'
+cask 'temurin' # required for screaming-frog-seo-spider
 cask 'visual-studio-code'
+cask 'zoom'
 
 # Mac App Store
-mas 'iA Writer', id: 775737590
+mas 'Bear', id: 1091189122
+mas 'JumpIn', id: 1506451016
+mas 'Spark – Email App by Readdle', id: 1176895641
