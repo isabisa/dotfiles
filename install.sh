@@ -34,4 +34,6 @@ valet install && sudo valet trust
 mkdir $HOME/local
 mkdir $HOME/valet
 
+cd $HOME/valet && valet park 
+
 echo "Install script complete."
