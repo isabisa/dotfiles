@@ -4,24 +4,6 @@ export DOTFILES=$HOME/.dotfiles
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Homebrew
-export PATH=/opt/homebrew/bin:$PATH
-
-# Composer
-# export PATH=~/.composer/vendor/bin:$PATH
-export PATH="$HOME/.composer/vendor/bin:$PATH"
-
-# Load Node.js global installed binaries
-export PATH="$HOME/.node/bin:$PATH"
-
-# Use project specific Node.js binaries before global ones
-export PATH="node_modules/.bin:vendor/bin:$PATH"
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -32,12 +14,12 @@ autoload -Uz compinit && compinit
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell"
 
 # Pure ZSH theme (no longer included in Oh My Zsh)
 # https://github.com/sindresorhus/pure
-autoload -U promptinit; promptinit
-prompt pure
+# autoload -U promptinit; promptinit
+# prompt pure
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -126,21 +108,3 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# PHP
-alias phpserver="php -S localhost:8000"
-
-# Shortcuts
-alias zshconfig="code ~/.zshrc"
-alias ohmyzsh="code ~/.oh-my-zsh"
-alias hyperconfig="cd ~ && vi .hyperterm.js"
-alias hosts="code /etc/hosts"
-alias flush="dscacheutil -flushcache"
-alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias vblist="vboxmanage list runningvms"
-alias catdb="cat *.sql > dump.sql"
-alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
-
-# System
-alias showfiles="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app"
-alias hidefiles="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
