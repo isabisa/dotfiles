@@ -25,7 +25,10 @@ brew tap homebrew/bundle
 brew bundle
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/valet
+composer global require laravel/valet
+
+# Install Laravel Valet
+valet install && sudo valet trust
 
 # Create directories for projects
 mkdir $HOME/local
