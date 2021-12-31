@@ -39,7 +39,7 @@ cask 'imageoptim'
 cask 'iterm2'
 cask 'kaleidoscope'
 cask 'local'
-cask 'php-mon'
+cask 'phpmon'
 cask 'screaming-frog-seo-spider'
 cask 'sequel-pro'
 cask 'sim-daltonism'
@@ -53,4 +53,3 @@ cask 'zoom'
 # Mac App Store
 mas 'Bear', id: 1091189122
 mas 'JumpIn', id: 1506451016
-mas 'Spark – Email App by Readdle', id: 1176895641

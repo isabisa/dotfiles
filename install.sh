@@ -14,6 +14,9 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Update the formulae and Homebrew itself
 brew update
 
+# Install Rosetta (required for Adobe Creative Cloud
+softwareupdate --install-rosetta --agree-to-license
+
 # Install all our dependencies with bundle (our Brewfile)
 brew tap homebrew/bundle
 brew bundle
