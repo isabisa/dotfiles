@@ -37,3 +37,4 @@ There are a few steps you'll need to take to make sure everything goes as planne
 1. Download this repo, extract the zip, and put the files in `~/.dotfiles`.
 2. Double-click on `install.sh`.
 3. Check the Brewfile for a list of apps you'll need to install manually.
+4. Reconnect `~/.dotfiles` to repo.
