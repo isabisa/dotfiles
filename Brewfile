@@ -26,7 +26,6 @@ cask 'font-fira-code'
 # Apps
 cask '1password'
 cask 'adobe-creative-cloud'
-cask 'backblaze'
 cask 'browserstacklocal'
 cask 'cyberduck'
 cask 'dropbox'
@@ -61,3 +60,4 @@ mas 'JumpIn', id: 1506451016
 # Logi Tune: https://www.logitech.com/en-us/video-collaboration/software/logi-tune-software.html
 # Cisco Anyconnect: https://help.unc.edu/sp?id=kb_article_view&sysparm_article=KB0010155&sys_kb_id=719db1eddb3fa41070551ffa689619eb
 # Hive: https://hive.com/applications/
+# Backblaze (there is a cask for this but it doesn't install it completely): https://secure.backblaze.com/update.htm

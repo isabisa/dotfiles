@@ -24,7 +24,7 @@ softwareupdate --install-rosetta --agree-to-license
 
 # Install all our dependencies with bundle (our Brewfile)
 brew tap homebrew/bundle
-brew bundle
+brew bundle --file $DOTFILES/Brewfile
 
 # Install global Composer packages
 composer global require laravel/valet

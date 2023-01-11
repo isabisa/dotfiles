@@ -15,7 +15,8 @@ There are a few steps you'll need to take to make sure everything goes as planne
 ### BEFORE wiping your computer
 1. Save any important files in Documents folder!
     - Bear notes
-2. Make sure Documents is syncing with Google Drive.
+    - SSH keys
+2. Make sure Documents is syncing with Google Drive or iCloud.
 3. Make sure VS Code Settings Sync is "On."
 4. Make sure all code changes (for projects AND this dotfiles repo) have been committed and pushed to Github.
 
