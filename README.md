@@ -38,3 +38,4 @@ There are a few steps you'll need to take to make sure everything goes as planne
 2. Double-click on `install.sh`.
 3. Check the Brewfile for a list of apps you'll need to install manually.
 4. Reconnect `~/.dotfiles` to repo.
+5. Install Xcode command line utilities by running `xcode-select --install` in iTerm. Also probably will need to update Oh My Zsh.
